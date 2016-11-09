@@ -5,7 +5,6 @@
 .row {
   width: 1000px;
   padding: 0 20px;
-  border: 1px dashed red;
 }
 
 /* Clearfix */
@@ -27,6 +26,8 @@
   margin-right: 1.8%;
 }
 
+
+
 @media screen and (max-width: 640px) {
   .row {
     width: 100%;
@@ -35,6 +36,7 @@
     width: 100%;
   }
 }
+
 
 @media screen and (max-width: 1000px) {
   .row {
