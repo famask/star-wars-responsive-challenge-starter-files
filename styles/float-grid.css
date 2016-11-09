@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  width: 1000px;
+  padding: 0 20px;
+  border: 1px dashed red;
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-4 {
+  width: 31.2%;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 18px;
+}
+
+@media only screen (max-width: 640px) {
+  .row {
+    width: 640px;
+  }
+  .col-4 {
+    width: 20%;
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 100%;
+  border: 1px solid blue;
+  background-color: #eebb44;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+/*.article {
+  border: 3px solid #e5e5e5;
+}
+*/
+img {
+  width: 100%;
+}
+
+.content {
+  border: 2px solid yellow;
+  padding-left: 20px;
+  padding-bottom: 27px;
+}
